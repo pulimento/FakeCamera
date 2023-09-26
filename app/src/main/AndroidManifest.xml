@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="es.pulimento.fakecamera">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="FakeCamera"
-        android:allowBackup="false"
         android:theme="@android:style/Theme.Material.Light.DarkActionBar">
 
         <activity android:name=".MainActivity" android:exported="true">
